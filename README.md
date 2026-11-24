@@ -16,11 +16,11 @@ A pergunta central: **qual a melhor forma de montar um "segundo cÃ©rebro" usan
 
 1. **TrÃªs filosofias de second brain:**
    - *Conversa pura* (prompt que te entrevista, ex. `Luispitik/claude-code-second-brain`)
-   - *raw â†’ LLM â†’ wiki* (a LLM lÃª o cru e organiza a wiki â€” a "linha Karpathy", ex. `inematds/second-brain`, `AgriciDaniel/claude-obsidian`)
+   - *raw â†’ LLM â†’ wiki* (a LLM lÃª o cru e organiza a wiki â€” a "linha Karpathy", ex. `linnoff88-dev/second-brain`, `AgriciDaniel/claude-obsidian`)
    - *Obsidian manual* (vocÃª cura os links Ã  mÃ£o â€” Zettelkasten clÃ¡ssico)
 
 2. **TrÃªs camadas, nÃ£o concorrentes:**
-   - **OrganizaÃ§Ã£o** (o cÃ©rebro): Luispitik, inematds
+   - **OrganizaÃ§Ã£o** (o cÃ©rebro): Luispitik, linnoff88-dev
    - **Formato** (as mÃ£os): `kepano/obsidian-skills` â€” escrever `.md`/`.base`/`.canvas` vÃ¡lidos
    - **RecuperaÃ§Ã£o** (a busca): `safishamsi/graphify` â€” grafo + MCP que o agente consulta (code-first)
 

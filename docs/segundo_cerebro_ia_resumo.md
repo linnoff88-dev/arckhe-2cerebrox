@@ -4,9 +4,9 @@
 
 O conteúdo explica como construir um “segundo cérebro” com IA: um sistema de arquivos, memórias, anotações, projetos, decisões e referências que permite que um agente de IA encontre informações importantes sem que você precise explicar tudo de novo.
 
-A ideia principal é que não existe um único modelo ideal. Existem níveis diferentes de complexidade, desde uma estrutura simples com pastas e arquivos até sistemas autônomos que atualizam conhecimento sozinhos. O ponto mais importante é escolher o nível mais simples que resolve o seu problema real.
+A ideia principal é que nêo existe um único modelo ideal. Existem níveis diferentes de complexidade, desde uma estrutura simples com pastas e arquivos até sistemas autônomos que atualizam conhecimento sozinhos. O ponto mais importante é escolher o nível mais simples que resolve o seu problema real.
 
-O foco não é criar o sistema mais avançado possível, mas sim criar uma estrutura em que a IA saiba onde procurar, como interpretar o contexto e como recuperar informações úteis de forma confiável.
+O foco nêo é criar o sistema mais avançado possível, mas sim criar uma estrutura em que a IA saiba onde procurar, como interpretar o contexto e como recuperar informações úteis de forma confiável.
 
 ---
 
@@ -18,8 +18,8 @@ Em vez de depender apenas da memória humana ou de arquivos espalhados, o segund
 
 O valor está em fazer a IA entender:
 
-- onde cada informação vive;
-- qual informação é importante;
+- onde cada informaçêo vive;
+- qual informaçêo é importante;
 - como diferentes assuntos se relacionam;
 - quando buscar em arquivos internos;
 - quando buscar em fontes externas ou sistemas conectados;
@@ -29,7 +29,7 @@ O valor está em fazer a IA entender:
 
 ## Propósito
 
-O propósito do segundo cérebro é reduzir repetição, aumentar precisão e permitir que a IA trabalhe com mais contexto.
+O propósito do segundo cérebro é reduzir repetiçêo, aumentar precisêo e permitir que a IA trabalhe com mais contexto.
 
 Na prática, ele serve para:
 
@@ -52,7 +52,7 @@ O objetivo final é que a IA consiga responder perguntas vagas ou complexas porq
 
 É uma estrutura de conhecimento que permite salvar informações e recuperá-las depois com ajuda de agentes de IA.
 
-Pode conter arquivos Markdown, pastas, wikis, registros de decisão, transcrições de reuniões, anotações, documentos de projetos e referências.
+Pode conter arquivos Markdown, pastas, wikis, registros de decisêo, transcrições de reuniões, anotações, documentos de projetos e referências.
 
 O ponto essencial é que o sistema precisa ser compreensível tanto para a pessoa quanto para a IA.
 
@@ -60,21 +60,21 @@ O ponto essencial é que o sistema precisa ser compreensível tanto para a pesso
 
 ## 2. A importância de organizar antes de automatizar
 
-O problema muitas vezes não está na IA, mas na falta de organização dos dados.
+O problema muitas vezes nêo está na IA, mas na falta de organizaçêo dos dados.
 
-Se as informações estão mal salvas, sem contexto ou espalhadas, a IA não consegue recuperar bem. Antes de pensar em sistemas avançados, é necessário criar uma arquitetura clara de pastas, nomes, rotas e regras.
+Se as informações estêo mal salvas, sem contexto ou espalhadas, a IA nêo consegue recuperar bem. Antes de pensar em sistemas avançados, é necessário criar uma arquitetura clara de pastas, nomes, rotas e regras.
 
 ---
 
 ## 3. Trabalhar de trás para frente
 
-Antes de salvar informações, é preciso pensar em como elas serão usadas no futuro.
+Antes de salvar informações, é preciso pensar em como elas serêo usadas no futuro.
 
 A pergunta principal é:
 
 > Que tipo de pergunta eu vou querer fazer para esse sistema depois?
 
-A forma de armazenar muda conforme o uso. Por exemplo, se você quer resumir uma reunião inteira, talvez seja melhor manter o arquivo completo. Se quer buscar pequenos trechos específicos em milhares de documentos, uma busca semântica pode fazer mais sentido.
+A forma de armazenar muda conforme o uso. Por exemplo, se você quer resumir uma reuniêo inteira, talvez seja melhor manter o arquivo completo. Se quer buscar pequenos trechos específicos em milhares de documentos, uma busca semântica pode fazer mais sentido.
 
 ---
 
@@ -82,7 +82,7 @@ A forma de armazenar muda conforme o uso. Por exemplo, se você quer resumir uma
 
 O primeiro nível é uma estrutura básica com pastas e arquivos, guiada por um arquivo principal de instruções.
 
-Esse arquivo funciona como um roteador: ele diz para a IA onde procurar cada tipo de informação.
+Esse arquivo funciona como um roteador: ele diz para a IA onde procurar cada tipo de informaçêo.
 
 Exemplo:
 
@@ -99,7 +99,7 @@ Esse nível é ideal quando você só precisa que a IA saiba onde encontrar info
 
 No segundo nível, as informações começam a ser organizadas como uma wiki.
 
-Aqui, os arquivos não são apenas guardados; eles passam a se conectar por temas, conceitos, referências e relações simples.
+Aqui, os arquivos nêo sêo apenas guardados; eles passam a se conectar por temas, conceitos, referências e relações simples.
 
 É útil quando já existem muitas anotações, transcrições ou conteúdos e você quer reunir tudo sobre um assunto específico.
 
@@ -109,23 +109,23 @@ Esse nível ajuda a IA a navegar por tópicos e encontrar contexto de forma mais
 
 ## 6. Nível 3 — Busca semântica e vetores
 
-O terceiro nível usa busca por significado, não apenas por palavras exatas.
+O terceiro nível usa busca por significado, nêo apenas por palavras exatas.
 
 Em vez de procurar somente a palavra escrita, o sistema encontra conteúdos parecidos em sentido.
 
-Por exemplo, se você procurar por “feedback”, ele pode encontrar trechos sobre avaliações, testes, resultados ou melhorias, mesmo que a palavra “feedback” não apareça exatamente.
+Por exemplo, se você procurar por “feedback”, ele pode encontrar trechos sobre avaliações, testes, resultados ou melhorias, mesmo que a palavra “feedback” nêo apareça exatamente.
 
-Esse nível é útil para grandes volumes de texto, mas tem limitações. Como os documentos são divididos em pedaços, a IA pode encontrar apenas partes do contexto e perder a visão completa.
+Esse nível é útil para grandes volumes de texto, mas tem limitações. Como os documentos sêo divididos em pedaços, a IA pode encontrar apenas partes do contexto e perder a visêo completa.
 
 ---
 
 ## 7. Limitações da busca vetorial
 
-A busca semântica não é uma solução mágica.
+A busca semântica nêo é uma soluçêo mágica.
 
 Ela é boa para encontrar trechos relevantes, mas pode ser ruim quando a pergunta exige leitura completa de um documento.
 
-Por exemplo, se você pedir um resumo de uma reunião, a IA pode recuperar apenas alguns pedaços da transcrição e ignorar partes importantes. Nesse caso, um arquivo completo bem organizado pode ser melhor do que uma base vetorial.
+Por exemplo, se você pedir um resumo de uma reuniêo, a IA pode recuperar apenas alguns pedaços da transcriçêo e ignorar partes importantes. Nesse caso, um arquivo completo bem organizado pode ser melhor do que uma base vetorial.
 
 ---
 
@@ -133,17 +133,17 @@ Por exemplo, se você pedir um resumo de uma reunião, a IA pode recuperar apena
 
 O quarto nível usa relações entre entidades.
 
-Aqui, o sistema não guarda apenas documentos ou temas. Ele entende conexões como:
+Aqui, o sistema nêo guarda apenas documentos ou temas. Ele entende conexões como:
 
 - pessoa trabalha em empresa;
 - empresa concorre com outra;
 - projeto depende de ferramenta;
 - cliente está relacionado a contrato;
-- decisão afeta determinado objetivo.
+- decisêo afeta determinado objetivo.
 
-Esse nível é útil quando as relações entre pessoas, empresas, projetos, produtos e decisões são tão importantes quanto os próprios documentos.
+Esse nível é útil quando as relações entre pessoas, empresas, projetos, produtos e decisões sêo têo importantes quanto os próprios documentos.
 
-É mais complexo, mas permite fazer perguntas encadeadas e entender caminhos de relação.
+É mais complexo, mas permite fazer perguntas encadeadas e entender caminhos de relaçêo.
 
 ---
 
@@ -153,9 +153,9 @@ O quinto nível é um sistema sempre ativo, que sincroniza, atualiza e reorganiz
 
 Ele pode rodar em segundo plano, atualizar memórias, puxar novos dados, conectar agentes e manter o sistema vivo.
 
-Mas esse nível não é necessariamente o melhor. Ele pode gerar excesso de contexto, ruído e informações desnecessárias.
+Mas esse nível nêo é necessariamente o melhor. Ele pode gerar excesso de contexto, ruído e informações desnecessárias.
 
-A automação total só faz sentido quando há uma necessidade real.
+A automaçêo total só faz sentido quando há uma necessidade real.
 
 ---
 
@@ -171,20 +171,20 @@ Exemplo:
 - relacionamentos entre clientes e empresas podem virar grafo;
 - tarefas recorrentes podem ser automatizadas.
 
-O segundo cérebro não precisa ter uma única arquitetura. Ele pode ser híbrido.
+O segundo cérebro nêo precisa ter uma única arquitetura. Ele pode ser híbrido.
 
 ---
 
 ## 11. Contexto versus conexões
 
-Existem dois tipos principais de informação.
+Existem dois tipos principais de informaçêo.
 
 ### Contexto
 
 É aquilo que tende a permanecer útil por muito tempo:
 
 - decisões;
-- visão do negócio;
+- visêo do negócio;
 - prioridades;
 - processos;
 - projetos;
@@ -193,7 +193,7 @@ Existem dois tipos principais de informação.
 
 ### Conexões
 
-São informações mais dinâmicas:
+Sêo informações mais dinâmicas:
 
 - conversas;
 - mensagens;
@@ -206,7 +206,7 @@ Nem tudo deve ser salvo permanentemente no segundo cérebro. Algumas informaçõ
 
 ---
 
-## 12. O risco de excesso de informação
+## 12. O risco de excesso de informaçêo
 
 Adicionar tudo ao segundo cérebro pode piorar o sistema.
 
@@ -214,15 +214,15 @@ Se muitas informações temporárias forem salvas como memória permanente, o si
 
 A pergunta prática é:
 
-> Essa informação ainda será útil daqui a um ano?
+> Essa informaçêo ainda será útil daqui a um ano?
 
-Se a resposta for não, talvez ela não deva entrar como memória permanente.
+Se a resposta for nêo, talvez ela nêo deva entrar como memória permanente.
 
 ---
 
-## 13. Adoção em equipe
+## 13. Adoçêo em equipe
 
-O desafio de levar esse modelo para equipes não é apenas técnico. A maior dificuldade é criar hábitos.
+O desafio de levar esse modelo para equipes nêo é apenas técnico. A maior dificuldade é criar hábitos.
 
 A equipe precisa definir:
 
@@ -238,7 +238,7 @@ Antes de criar um segundo cérebro para uma equipe inteira, é melhor dominar pr
 
 # Utilidade prática
 
-Esse conteúdo é útil para quem quer usar IA de forma mais consistente no trabalho, especialmente em projetos, negócios, produção de conteúdo, gestão de conhecimento ou operações internas.
+Esse conteúdo é útil para quem quer usar IA de forma mais consistente no trabalho, especialmente em projetos, negócios, produçêo de conteúdo, gestêo de conhecimento ou operações internas.
 
 A principal utilidade é criar uma base organizada para que a IA possa ajudar melhor.
 
@@ -248,13 +248,13 @@ Isso melhora tarefas como:
 
 - planejamento;
 - resumos;
-- organização de projetos;
-- recuperação de decisões antigas;
-- criação de conteúdo;
+- organizaçêo de projetos;
+- recuperaçêo de decisões antigas;
+- criaçêo de conteúdo;
 - análise de reuniões;
-- gestão de conhecimento;
-- documentação de processos;
-- apoio à tomada de decisão.
+- gestêo de conhecimento;
+- documentaçêo de processos;
+- apoio à tomada de decisêo.
 
 ---
 
@@ -284,35 +284,35 @@ Esse arquivo deve dizer:
 
 - quem você é;
 - como você trabalha;
-- quais são seus projetos principais;
-- onde encontrar cada tipo de informação;
+- quais sêo seus projetos principais;
+- onde encontrar cada tipo de informaçêo;
 - quais arquivos devem ser lidos primeiro;
 - quais regras a IA deve seguir ao buscar contexto.
 
-Esse é o coração do nível 1.
+Esse é o coraçêo do nível 1.
 
 ---
 
 ## 3. Criar um registro de decisões
 
-Toda decisão importante deve ser salva com data, contexto e motivo.
+Toda decisêo importante deve ser salva com data, contexto e motivo.
 
 Modelo prático:
 
 ```markdown
-# Decisão
+# Decisêo
 
 ## Data
 AAAA-MM-DD
 
-## Decisão tomada
-Descrever a decisão.
+## Decisêo tomada
+Descrever a decisêo.
 
 ## Contexto
 Explicar o cenário.
 
 ## Motivo
-Por que essa decisão foi tomada.
+Por que essa decisêo foi tomada.
 
 ## Alternativas descartadas
 Listar opções consideradas.
@@ -350,23 +350,23 @@ Modelo prático:
 Descrever o objetivo principal.
 
 ## Status atual
-Em andamento / pausado / concluído / em revisão.
+Em andamento / pausado / concluído / em revisêo.
 
 ## Contexto
 Resumo do projeto e por que ele existe.
 
 ## Decisões importantes
-- Data — decisão — motivo.
+- Data — decisêo — motivo.
 
 ## Pessoas envolvidas
-- Nome — função.
+- Nome — funçêo.
 
 ## Links e referências
 - Link ou caminho do arquivo.
 
 ## Próximos passos
-- Ação 1
-- Ação 2
+- Açêo 1
+- Açêo 2
 ```
 
 ---
@@ -393,9 +393,9 @@ Isso ajuda a IA a reunir tudo sobre um assunto.
 
 Busca vetorial é útil para grandes volumes de texto e perguntas específicas.
 
-Mas não deve substituir uma boa organização.
+Mas nêo deve substituir uma boa organizaçêo.
 
-Ela é indicada quando você precisa encontrar trechos parecidos por significado, não quando precisa que a IA leia um documento inteiro.
+Ela é indicada quando você precisa encontrar trechos parecidos por significado, nêo quando precisa que a IA leia um documento inteiro.
 
 ---
 
@@ -417,13 +417,13 @@ Ele ajuda a responder perguntas como:
 
 Antes de criar um sistema autônomo, é melhor garantir que a estrutura manual funciona.
 
-A automação só deve entrar quando o processo já está claro.
+A automaçêo só deve entrar quando o processo já está claro.
 
 Automatizar uma bagunça apenas cria uma bagunça mais rápida.
 
 ---
 
-## 9. Separar memória permanente de informação temporária
+## 9. Separar memória permanente de informaçêo temporária
 
 Nem tudo deve ser salvo para sempre.
 
@@ -433,10 +433,10 @@ Nem tudo deve ser salvo para sempre.
 - estratégias;
 - aprendizados;
 - processos;
-- visão do negócio;
+- visêo do negócio;
 - projetos importantes.
 
-### Informação temporária
+### Informaçêo temporária
 
 - mensagens;
 - e-mails;
@@ -444,7 +444,7 @@ Nem tudo deve ser salvo para sempre.
 - dados que mudam toda semana;
 - discussões operacionais passageiras.
 
-A IA pode acessar dados temporários quando necessário, mas eles não precisam virar memória fixa.
+A IA pode acessar dados temporários quando necessário, mas eles nêo precisam virar memória fixa.
 
 ---
 
@@ -452,9 +452,9 @@ A IA pode acessar dados temporários quando necessário, mas eles não precisam 
 
 A escolha do nível depende do problema:
 
-| Situação | Nível recomendado |
+| Situaçêo | Nível recomendado |
 |---|---|
-| Você precisa parar de explicar onde estão as coisas | Nível 1 |
+| Você precisa parar de explicar onde estêo as coisas | Nível 1 |
 | Tem muitas notas e quer organizar por assunto | Nível 2 |
 | Precisa buscar por significado em muitos textos | Nível 3 |
 | Precisa entender relações entre entidades | Nível 4 |
@@ -464,12 +464,12 @@ A melhor escolha é a menor estrutura que resolve o problema atual.
 
 ---
 
-# Conclusão
+# Conclusêo
 
-Um segundo cérebro com IA não é sobre ter a tecnologia mais avançada, mas sobre construir uma memória útil, organizada e recuperável.
+Um segundo cérebro com IA nêo é sobre ter a tecnologia mais avançada, mas sobre construir uma memória útil, organizada e recuperável.
 
 O maior aprendizado é:
 
-> Comece simples, organize bem, pense em como a informação será usada no futuro e só aumente a complexidade quando existir uma dor real.
+> Comece simples, organize bem, pense em como a informaçêo será usada no futuro e só aumente a complexidade quando existir uma dor real.
 
 Na prática, o segundo cérebro ideal é aquele que permite que a IA saiba onde procurar, entenda o contexto e entregue respostas úteis sem depender de explicações repetidas.
